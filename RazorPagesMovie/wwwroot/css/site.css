@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+* {
+    color: #00ff00  !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+ background-color: black;
+  margin-bottom: 60px;
+}
+input {
+    color: black !important;
+}
+select {
+    color: black !important;
+}
