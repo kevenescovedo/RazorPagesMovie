@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IcLB9yboOCgxCx10RvYFDMdujLXCFipUuLmwBJO8A+k=",
+  "Hash": "IWWZaCoDkEjcl1cq5JrIPZ39AGFk8QpwHEYbAt8qNEU=",
   "Source": "RazorPagesMovie",
   "BasePath": "_content/RazorPagesMovie",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\keven\\source\\repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\image.svg",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keven\\source\\repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "image.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image.svg"
     },
     {
       "Identity": "C:\\Users\\keven\\source\\repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\js\\site.js",
