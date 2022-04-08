@@ -31,6 +31,10 @@ namespace RazorPagesMovie.Models
         [Display(Name = "Preço")]
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+        [Range(1, 10, ErrorMessage = "A nota deve ser de 1 á 10")]
+        [Display(Name = "Nota")]
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal avaliation { get; set; }
         //[RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
         //[StringLength(5)]
         [Required(ErrorMessage = "Este campo deve ser obrigatório")]
