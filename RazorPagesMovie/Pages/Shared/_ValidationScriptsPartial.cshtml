@@ -12,7 +12,9 @@
 
 <script src="~/lib/jquery-validation-globalize/jquery.validate.globalize.js"></script>
 <script>
+  
     $.validator.methods.number = function (value, element) {
+   element.value = value.replace(".", ",");
     console.log(this.optional(element));
     console.log(Globalize.parseFloat(value));
     console.log(!isNaN(Globalize.parseFloat(value)));
