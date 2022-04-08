@@ -31,6 +31,7 @@ namespace RazorPagesMovie.Models
                         Price = 7.99M,
                         Rating = "14",
                         duration = DateTime.Parse("02:00:00"),
+                        avaliation = 10.0M
                     },
 
                     new Movie
@@ -41,6 +42,8 @@ namespace RazorPagesMovie.Models
                         Price = 8.99M,
                         Rating = "18",
                         duration = DateTime.Parse("02:00:00"),
+                        avaliation = 10.0M
+
                     },
 
                     new Movie
@@ -50,7 +53,8 @@ namespace RazorPagesMovie.Models
                         Genre = "Romance",
                         Price = 9.99M,
                         Rating = "12",
-                        duration = DateTime.Parse("02:00:00")
+                        duration = DateTime.Parse("02:00:00"),
+                        avaliation = 10.0M
                     },
 
                     new Movie
@@ -61,10 +65,11 @@ namespace RazorPagesMovie.Models
                         Price = 3.99M,
                         Rating = "l",
                         duration = DateTime.Parse("02:00:00"),
+                        avaliation = 10.0M
 
 
                     }
-                ); ; ;
+                ); ; ; ; ;
                 context.SaveChanges();
             }
         }
