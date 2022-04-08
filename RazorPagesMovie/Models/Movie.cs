@@ -16,7 +16,13 @@ namespace RazorPagesMovie.Models
         [Required(ErrorMessage = "Este campo deve ser obrigatório")]
         [Display(Name = "Data de Lançamento")]
         [DataType(DataType.Date)]
+
         public DateTime ReleaseDate { get; set; }
+        [Required(ErrorMessage = "Este campo deve ser obrigatório")]
+        [Display(Name = "Duração")]
+        [DataType(DataType.Time)]
+
+        public DateTime duration { get; set; }
         [Display(Name = "Genêro")]
         public string Genre { get; set; } = string.Empty;
         [Range(1, 100, ErrorMessage = "O preço deve ser menor que R$ 100,00")]

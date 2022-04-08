@@ -30,6 +30,7 @@ namespace RazorPagesMovie.Models
                         Genre = "Ação",
                         Price = 7.99M,
                         Rating = "14",
+                        duration = DateTime.Parse("02:00:00"),
                     },
 
                     new Movie
@@ -38,7 +39,8 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("2012-3-13"),
                         Genre = "Terror",
                         Price = 8.99M,
-                        Rating = "18"
+                        Rating = "18",
+                        duration = DateTime.Parse("02:00:00"),
                     },
 
                     new Movie
@@ -47,7 +49,9 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("1990-7-27"),
                         Genre = "Romance",
                         Price = 9.99M,
-                        Rating = "12"                    },
+                        Rating = "12",
+                        duration = DateTime.Parse("02:00:00")
+                    },
 
                     new Movie
                     {
@@ -55,9 +59,12 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("1951-4-15"),
                         Genre = "Fântasia",
                         Price = 3.99M,
-                        Rating = "l"
+                        Rating = "l",
+                        duration = DateTime.Parse("02:00:00"),
+
+
                     }
-                );
+                ); ; ;
                 context.SaveChanges();
             }
         }
