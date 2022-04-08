@@ -360,7 +360,7 @@ $.extend( $.validator, {
 	},
 
 	messages: {
-		required: "This field is required.",
+		required: "This campo é exigido.",
 		remote: "Please fix this field.",
 		email: "Please enter a valid email address.",
 		url: "Please enter a valid URL.",
@@ -372,7 +372,7 @@ $.extend( $.validator, {
 		maxlength: $.validator.format( "Please enter no more than {0} characters." ),
 		minlength: $.validator.format( "Please enter at least {0} characters." ),
 		rangelength: $.validator.format( "Please enter a value between {0} and {1} characters long." ),
-		range: $.validator.format( "Please enter a value between {0} and {1}." ),
+		range: $.validator.format( "Digite um valor entre {0} e {1}." ),
 		max: $.validator.format( "Please enter a value less than or equal to {0}." ),
 		min: $.validator.format( "Please enter a value greater than or equal to {0}." ),
 		step: $.validator.format( "Please enter a multiple of {0}." )
@@ -1405,7 +1405,7 @@ $.extend( $.validator, {
 		},
 
 		// https://jqueryvalidation.org/number-method/
-		number: function( value, element ) {
+		number: function (value, element) {
 			return this.optional( element ) || /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test( value );
 		},
 
